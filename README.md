@@ -1,4 +1,6 @@
-For this problem, we used the dataset mentioned above. Considering data instances with id-numbers as follows: a.d3: id=1017122, row-6b.d1: id=1035283, row-11c.d4: id=1185609, row-147d.d5: id=1230175, row=230e.d2: id=529329,  row-287
+For this problem, considering data instances from this [dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29) with id-numbers as follows: a.d3: id=1017122, row-6b.d1: id=1035283, row-11c.d4: id=1185609, row-147d.d5: id=1230175, row=230e.d2: id=529329,  row-287
+
+Note: The cleaned dataset has already been uploaded in this repository.
 ## Euclidean-distance
 ![Euclidean Distance Matrix](https://github.com/anij715/Mahalanobis-distance-analysis/blob/main/Euclid.PNG)
 - From the above table, we can observe that, for the point D1, D2 is at the maximum distance (21.19) when both have different class values (D1.class == 4, D2.class == 2). While D5 is located the nearest, at 6.86 units from D1, both instances have the same class values (~4). Similarly, for other points, this trend is being followed by each pair. 
